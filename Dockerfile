@@ -1,7 +1,7 @@
 # Docker 镜像构建
 # @author <a href="https://github.com/liyupi">程序员鱼皮</a>
 # @from <a href="https://yupi.icu">编程导航知识星球</a>
-FROM maven:3.5-jdk-8-alpine as builder
+FROM registry.cn-hangzhou.aliyuncs.com/acs/maven:3-jdk-8
 
 # Copy local code to the container image.
 WORKDIR /app
